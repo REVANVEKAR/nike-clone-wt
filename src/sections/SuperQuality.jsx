@@ -14,12 +14,12 @@ const SuperQuality = () => {
           <span className='text-coral-red'>Quality </span> Shoes
         </h2>
         <p className='mt-4 lg:max-w-lg info-text'>
-          Ensuring premium comfort and style, our meticulously crafted footwear
-          is designed to elevate your experience, providing you with unmatched
-          quality, innovation, and a touch of elegance.
+          As someone once famously said " ***** 80000 hazaar ke shoes he 80000 hazaar ke 
+          tera ghar jayenga isme, tera ghar chale jayenga "
         </p>
         <p className='mt-6 lg:max-w-lg info-text'>
-          Our dedication to detail and excellence ensures your satisfaction
+          naam bataye: Nike x Rev, konse konse shoes liye he aapne? Bohot shoes liye he 
+          naam bataye: Nike x Rev
         </p>
         <div className='mt-11'>
           <Button label='View details' />

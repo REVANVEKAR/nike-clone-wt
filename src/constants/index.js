@@ -62,12 +62,12 @@ export const services = [
     {
         imgURL: shieldTick,
         label: "Secure Payment",
-        subtext: "Experience worry-free transactions with our secure payment options."
+        subtext: "Experience worry-free transactions with your 80000 ke shoes"
     },
     {
         imgURL: support,
         label: "Love to help you",
-        subtext: "Our dedicated team is here to assist you every step of the way."
+        subtext: "Our dedicated team of memers are here to help you."
     },
 ];
 
@@ -91,12 +91,12 @@ export const footerLinks = [
     {
         title: "Products",
         links: [
-            { name: "Air Force 1", link: "/" },
-            { name: "Air Max 1", link: "/" },
-            { name: "Air Jordan 1", link: "/" },
-            { name: "Air Force 2", link: "/" },
-            { name: "Nike Waffle Racer", link: "/" },
-            { name: "Nike Cortez", link: "/" },
+            { name: "Air Force 1", link: "https://www.nike.com/in/t/air-force-1-07-shoes-WrLlWX/CW2288-111" },
+            { name: "Air Max 1", link: "https://www.nike.com/in/t/air-max-1-shoes-h0SzNM/DZ2628-002" },
+            { name: "Air Jordan 1", link: "https://www.nike.com/in/t/air-jordan-1-mid-shoes-SQf7DM/DQ8426-106" },
+            { name: "Air Force 2", link: "https://www.nike.com/in/t/air-jordan-2-origins-shoes-5M55Kr/DR8884-101" },
+            { name: "Nike Waffle Racer", link: "https://www.nike.com/in/t/vaporfly-3-road-racing-shoes-xsDgvM/DV4129-601" },
+            { name: "Nike Cortez", link: "https://www.nike.com/in/t/cortez-shoes-0VH7qz/DM4044-100" },
         ],
     },
     {
@@ -112,14 +112,14 @@ export const footerLinks = [
     {
         title: "Get in touch",
         links: [
-            { name: "customer@nike.com", link: "mailto:customer@nike.com" },
-            { name: "+92554862354", link: "tel:+92554862354" },
+            { name: "customer@NikexRev.com", link: "mailto:revanthanvekar11@gmail.com" },
+            { name: "9380671321", link: "tel:+9380671321" },
         ],
     },
 ];
 
 export const socialMedia = [
-    { src: facebook, alt: "facebook logo" },
-    { src: twitter, alt: "twitter logo" },
-    { src: instagram, alt: "instagram logo" },
+    { src: facebook, alt: "facebook logo", link: "" },
+    { src: twitter, alt: "twitter logo", link:""},
+    { src: instagram, alt: "instagram logo",link: "https://www.instagram.com/revanth_anvekar/" },
 ];

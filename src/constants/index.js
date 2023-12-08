@@ -1,5 +1,6 @@
 import { facebook, instagram, shieldTick, support, truckFast, twitter } from "../assets/icons";
-import { bigShoe1, bigShoe2, bigShoe3, customer1, customer2, shoe4, shoe5, shoe6, shoe7, thumbnailShoe1, thumbnailShoe2, thumbnailShoe3 } from "../assets/images";
+import { bigShoe1, bigShoe2, bigShoe3, customer1, shoe4, shoe5, shoe6, shoe7, thumbnailShoe1, thumbnailShoe2, thumbnailShoe3 } from "../assets/images";
+import { customer2 } from "../assets/images";
 
 export const navLinks = [
     { href: "#home", label: "Home" },
@@ -32,23 +33,23 @@ export const statistics = [
 export const products = [
     {
         imgURL: shoe4,
-        name: "Nike Air Jordan-01",
-        price: "$200.20",
+        name: "NikexRev M C Stan",
+        price: "$80000",
     },
     {
         imgURL: shoe5,
-        name: "Nike Air Jordan-10",
-        price: "$210.20",
+        name: "NikexRev Elvish-bhai",
+        price: "$420",
     },
     {
         imgURL: shoe6,
-        name: "Nike Air Jordan-100",
-        price: "$220.20",
+        name: "NikexRev bopenderJogi",
+        price: "$150",
     },
     {
         imgURL: shoe7,
-        name: "Nike Air Jordan-001",
-        price: "$230.20",
+        name: "NikexRev Aayein's?",
+        price: "$690",
     },
 ];
 
@@ -73,15 +74,15 @@ export const services = [
 export const reviews = [
     {
         imgURL: customer1,
-        customerName: 'Morich Brown',
+        customerName: 'Revanth Anvekar',
         rating: 4.5,
-        feedback: "The attention to detail and the quality of the product exceeded my expectations. Highly recommended!"
+        feedback: "Aayein's? and the bhopendar Jogi's gets me a lot of attention in the club"
     },
     {
         imgURL: customer2,
         customerName: 'Lota Mongeskar',
         rating: 4.5,
-        feedback: "The product not only met but exceeded my expectations. I'll definitely be a returning customer!"
+        feedback: "Nike x Rev is always sold out its more popular than the AJ'1s and the Travis low fragments and Reverse Mocha's!"
     }
 ];
 

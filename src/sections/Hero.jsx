@@ -1,26 +1,41 @@
 import Button from "../Components/Button"
+
+import { useState } from "react"
+
+import ShoeCard from "../Components/ShoeCard"
 import { arrowRight } from "../assets/icons"
-import { statistics } from "../constants"
+import { bigShoe1 } from "../assets/images"
+import { shoes, statistics } from "../constants"
+
 
 const Hero = () => {
+
+  const[bigShoeImg, setBigShoeimg] = useState(bigShoe1);
+
+
+
   return (
     <section id="home" className="w-full flex
     xl:flex-row flex:col justify-center min-h-screen
-    gap-10 max-container ">
+    gap-10 max-container">
 
-      <div className="relative xl:w-2/5 flex 
-      flex-col justify-center items-start w-full
-      max-xl:padding-x pt-28">
-          <p>Our Summer Collection</p>
-          <h1>
-            <span>The New Arrival</span>
+      <div className="relative xl:w-2/5 flex flex-col justify-center items-start w-full  max-xl:padding-x pt-28">
+          <p className="text-xl font-montserrat text-coral-red">
+            Our Summer Collection
+          </p>
+          <h1 className="mt-10 font-palanquin text-8xl
+           max-sm:text-[72px] max-sm:leading-[82] 
+          font-bold z-20">
+            <span className="xl:bg-white xl:whitespace-nowrap 
+             z-10 pr-10">The New Arrival</span>
             <br/>
-            <span>Nike x Rev </span>
+            <span className="text-coral-red">Nike x Rev </span>
             shoes
           </h1>
-          <p>Discover stylish Nike x Rev arrivals,
+          <p className="font-montserrat text-slate-gray text-lg leading-8 mt-6 mb-14
+          sm:max-w-sm">Discover stylish Nike x Rev arrivals,
            quality, comfort and innovation for your 
-           hectic reva life
+           hectic always on your toes wala reva life
           </p>
           <Button label="Shop Now"
           iconURL={arrowRight}/>
@@ -29,13 +44,38 @@ const Hero = () => {
           flex-wrap w-full mt-20 gap-16">
             {statistics.map((stat, index)=>(
               <div key={index}>
-                <p>{stat.value}</p>
-                <p>{stat.label}</p>
+                <p className="text-4xl font-palanqiun 
+                font-bold">{stat.value}</p>
+                <p className="leading-7 font-montserrat text-slate-gray">{stat.label}</p>
               </div>
               
             ))}
           </div>
           
+      </div>
+
+      <div className="relative flex-1 flex 
+      justify-center items-center
+      xl:min-h-screen max-xl:py-40 bg-primary bg-hero bg-cover bg-center">
+        <img src={bigShoeImg}
+        alt="shoe collection"
+        width={610}
+        height={500}
+        className="object-contain relative z-10"
+
+        />
+        <div className="flex sm:gap-6 gap-4 absolute -bottom-[5%]
+         sm:left-[10%] max-sm:px-6 ">
+          {shoes.map((shoe)=>(
+            <div key = {shoe}>
+              <ShoeCard
+              imgURL={shoe}
+              changeBigShoeImage={(shoe)=>setBigShoeimg(shoe)}
+              bigShoeImg={bigShoeImg}
+              />
+            </div>
+          ))}
+        </div>
       </div>
 
     </section>
